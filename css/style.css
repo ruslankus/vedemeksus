@@ -3,10 +3,25 @@ html, body {
 	height: 100%;}
 
 .wrapper {
+	max-width:1200px;
+	background:#00a550 url(../images/main_bg.jpg) center center;
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto -4em;}
 	
-.footer, .push {
-	height: 4em;}	
+footer, .push {
+	height: 4em;}
+	
+	
+/*------- header --------*/	
+
+
+
+
+
+/*-------- footer ---------*/
+footer	{
+	background-color:#343433;
+	max-width:1200px;
+	margin: 0 auto;}
