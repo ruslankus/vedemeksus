@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    $('#main-content').tinyscrollbar();
+    $('#main-content').jScrollPane();
 });//ready
