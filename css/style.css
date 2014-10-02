@@ -6,7 +6,6 @@ html, body {
 	max-width:1200px;
 	background:#00a550 url(../images/main_bg.jpg) center center;
 	min-height: 100%;
-	height: auto !important;
 	height: 100%;
 	margin: 0 auto -4em;}
 	
@@ -15,10 +14,59 @@ footer, .push {
 	
 	
 /*------- header --------*/	
+header {
+	height:70px;
+	background-color:#ebf0ec;
+	position:relative;}
+	
+header > .logo-holder {
+	margin-top:10px;
+	margin-left:20px;}	
+	
+header > nav.navbar {
+	background-color:#388a41;
+	height:100%;
+	top:0;
+	right:0;
+	position:absolute;}
+	
+header > nav.navbar > div {
+	background-color:inherit;}
+	
+header .navbar-header > button {
+	font-size:6px;
+	margin:0;
+	height:70px;
+	width:70px;
+	background-color:#388a41;
+	border:none;
+	border-radius:0;}
+	
+header .navbar-default .navbar-toggle .icon-bar {
+	display:inline-block;
+	width:26px;
+	background-color:white;
+	height:3px;
+	color:white;}
+	
+#bs-meniu-navbar-collapse {
+	background-color:#388a41;}
+	
+#bs-meniu-navbar-collapse > ul > li {
+	min-width:150px;}
+	
+#bs-meniu-navbar-collapse > ul > li > a {
+	color:white;}
+		
+#bs-meniu-navbar-collapse > ul > li.active > a, #bs-meniu-navbar-collapse > ul > li > a:hover {
+	background-color:#48a953;}
 
 
-
-
+/*---- main content ------*/
+#main-content {
+	height:80%;
+	background-color:white;
+	overflow-y:auto}
 
 /*-------- footer ---------*/
 footer	{
