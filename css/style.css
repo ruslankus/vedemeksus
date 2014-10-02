@@ -1,4 +1,7 @@
 
+a, a:focus {
+	outline:none;}
+
 html, body {
 	height: 100%;}
 
@@ -15,6 +18,7 @@ footer, .push {
 	
 /*------- header --------*/	
 header {
+	z-index:10;
 	height:70px;
 	background-color:#ebf0ec;
 	position:relative;}
@@ -42,6 +46,9 @@ header .navbar-header > button {
 	border:none;
 	border-radius:0;}
 	
+header .navbar-default .navbar-header > button:hover, header .navbar-default .navbar-header > button:focus {
+	background-color:#388a41;}
+	
 header .navbar-default .navbar-toggle .icon-bar {
 	display:inline-block;
 	width:26px;
@@ -50,7 +57,12 @@ header .navbar-default .navbar-toggle .icon-bar {
 	color:white;}
 	
 #bs-meniu-navbar-collapse {
+	border:none;
 	background-color:#388a41;}
+	
+#bs-meniu-navbar-collapse > ul {
+	margin-top:0;
+	margin-bottom:0;}	
 	
 #bs-meniu-navbar-collapse > ul > li {
 	min-width:150px;}
