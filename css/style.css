@@ -76,9 +76,20 @@ header .navbar-default .navbar-toggle .icon-bar {
 
 /*---- main content ------*/
 #main-content {
-	height:80%;
-	background-color:white;
-	overflow-y:auto}
+	height:auto;
+	background-color:white;}
+	
+#main-content .nano {
+	width:90%;} 
+	
+#news {}
+
+.news-holder {max-height:210px;}
+
+/*--- scrooler ----*/
+.nano .nano-content { padding: 10px;}
+.nano .nano-pane   { background: #eaeaea; width:3px; }
+.bottom-block .nano-pane .nano-slider { background: #388a41; width:3px; }
 
 /*-------- footer ---------*/
 footer	{
