@@ -1,9 +1,41 @@
+@font-face {
+    font-family: 'casper';
+    src: url('../fonts/casper.eot');
+    src: url('../fonts/casper.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/casper.woff2') format('woff2'),
+         url('../fonts/casper.woff') format('woff'),
+         url('../fonts/casper.ttf') format('truetype'),
+         url('../fonts/casper.svg#casperregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+} 
+
+
+
+@font-face {
+    font-family: 'casper';
+    src: url('../fonts/casper_bold.eot');
+    src: url('../fonts/casper_bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/casper_bold.woff2') format('woff2'),
+         url('../fonts/casper_bold.woff') format('woff'),
+         url('../fonts/casper_bold.ttf') format('truetype'),
+         url('../fonts/casper_bold.svg#casper_boldregular') format('svg');
+    font-weight: 600;
+    font-style: normal;
+
+}
 
 a, a:focus {
 	outline:none;}
 
 html, body {
 	height: 100%;}
+	
+body {
+	font-family:'casper',sans-serif;
+	font-weight:400;
+	font-size:14px;}	
 
 .wrapper {
 	max-width:1200px;
