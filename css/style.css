@@ -42,12 +42,12 @@ body {
 	max-width:1200px;
 	background:#00a550 url(../images/main_bg.jpg) center center;
 	min-height: 100%;
-	height: 100%;
-	margin: -70px auto -4em;
-	padding-bottom:4em;}
+	height:auto;
+	margin: -70px auto -46px;
+	padding-bottom:46px;}
 	
 footer {
-	height:4em;}	
+	height:46px;}	
 	
 /*------- header --------*/	
 header {
@@ -110,11 +110,9 @@ header .navbar-default .navbar-toggle .icon-bar {
 
 
 /*---- main content ------*/
-#main-content {
-	height:100%;}
+#main-content {}
 	
-#main-content > div {
-	height:100%;}
+#main-content > div {}
 	
 #main-content .nano {
 	width:90%;} 
@@ -135,11 +133,10 @@ footer	{
 	margin: 0 auto;}
 	
 /*---------- index ---------*/
-#main-content > div > .row {
-	height:100%;}
+#main-content > div > .row {}
 	
 #index {
-	height:100%;
+	height:364px;
 	display:table;
 	vertical-align:middle;}
 	
