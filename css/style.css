@@ -118,17 +118,7 @@ header .navbar-default .navbar-toggle .icon-bar {
 	
 #main-content > div {}
 	
-#main-content .nano {
-	width:90%;} 
-	
-#news {}
 
-.news-holder {max-height:210px;}
-
-/*--- scrooler ----*/
-.nano .nano-content { padding: 10px;}
-.nano .nano-pane   { background: #eaeaea; width:3px; }
-.bottom-block .nano-pane .nano-slider { background: #388a41; width:3px; }
 
 /*-------- footer ---------*/
 footer	{
@@ -170,13 +160,22 @@ footer	{
 	
 /*---------- about  --------*/
  #about {
-	 padding:15px 30px;
+	 padding:15px;
 	 margin-right:-15px;
 	 margin-left:-15px;
 	 background-color:white;}
 	 
+#about > h2 {
+	font-weight:400;
+	font-size:23px;
+	line-height:36px;
+	background:url(../images/h2_bg.svg) left bottom no-repeat;
+	background-size:48px 2px;
+	margin-bottom:20px;}
+	 
 #about .expand-list > h4 {
 	font-size:13px;}
+	
 	
 #about .expand-list > h4 > a {
 	text-decoration:underline;
@@ -184,4 +183,60 @@ footer	{
 	
 #collapseOne > ul {
 	list-style-image:url(../images/bullet.jpg);}	
-		 
+	
+
+/*---------  news ---------- */
+ #news {
+	 padding:15px;
+	 margin-right:-15px;
+	 margin-left:-15px;
+	 background-color:white;}
+	 
+#news > h2 {
+	font-weight:400;
+	font-size:23px;
+	line-height:36px;
+	background:url(../images/h2_bg.svg) left bottom no-repeat;
+	background-size:48px 2px;
+	margin-bottom:20px;}
+	
+#articles-holder > article {
+	margin-bottom:25px;}
+	
+#articles-holder > article > p {
+	line-height:17px;
+	font-size:13px;}	
+	
+#articles-holder > article > .date {
+	font-size:12px;
+	line-height:24px;
+	color:#388a41;
+	background:url(../images/news_articles_bg.svg) left top no-repeat;
+	background-size:105px 2px;}
+	
+/*---- contacts -------*/
+#contacts 	{
+	 padding:15px;
+	 margin-right:-15px;
+	 margin-left:-15px;
+	 background-color:white;
+	 padding-bottom:100px;}
+
+#contacts > h2	{
+	font-weight:400;
+	font-size:23px;
+	line-height:36px;
+	background:url(../images/h2_bg.svg) left bottom no-repeat;
+	background-size:48px 2px;
+	margin-bottom:20px;}
+	
+.contact-holder > table tr > td {
+	color:#575757;
+	font-size:13px;
+	text-align:left;}	
+		
+.contact-holder > table tr > td:first-child {
+	color:#b2b2b2;
+	width:70px;
+	text-align:left;}	
+
