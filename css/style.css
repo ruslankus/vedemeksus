@@ -32,6 +32,10 @@ a, a:focus {
 html, body {
 	height: 100%;}
 	
+h2,h3,h4 {
+    font-family: 'casper',sans=serif;
+	font-weight:600;}
+	
 body {
 	font-family:'casper',sans-serif;
 	font-weight:400;
@@ -128,9 +132,24 @@ header .navbar-default .navbar-toggle .icon-bar {
 
 /*-------- footer ---------*/
 footer	{
+	display:table;
 	background-color:#343433;
+	width:100%;
 	max-width:1200px;
 	margin: 0 auto;}
+	
+.copy-holder {
+	font-size:11px;
+	display:table-cell;
+	height:100%;
+	vertical-align:middle;
+	padding-left:15px;
+	color:#6d6d6d;}	
+	
+.copy-holder > a {
+	color:#8b8b8b;}
+	
+	
 	
 /*---------- index ---------*/
 #main-content > div > .row {}
@@ -147,3 +166,22 @@ footer	{
 	font-size:20px;
 	font-weight:600;
 	color:white;}
+	
+	
+/*---------- about  --------*/
+ #about {
+	 padding:15px 30px;
+	 margin-right:-15px;
+	 margin-left:-15px;
+	 background-color:white;}
+	 
+#about .expand-list > h4 {
+	font-size:13px;}
+	
+#about .expand-list > h4 > a {
+	text-decoration:underline;
+	color:#388a41;}
+	
+#collapseOne > ul {
+	list-style-image:url(../images/bullet.jpg);}	
+		 
