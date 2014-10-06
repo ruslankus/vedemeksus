@@ -275,5 +275,32 @@ footer	{
 	margin-bottom:25px;}	
 	
 		 
+/*----- products ------*/
+#products 	{
+	 padding:15px;
+	 margin-right:-15px;
+	 margin-left:-15px;
+	 background-color:white;}
+	 
+#products > h2	{
+	font-weight:400;
+	font-size:23px;
+	line-height:36px;
+	background:url(../images/h2_bg.svg) left bottom no-repeat;
+	background-size:48px 2px;
+	margin-bottom:20px;}
+	
+/*--- prd - carusel ---*/
+#products .item {
+	text-align:center;}
+
+	
+#products .item > img{
+	display:inline-block;}
+
+#products .carousel-control {
+	z-index:20;}
+	
+
 		
 
