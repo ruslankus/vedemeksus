@@ -1,13 +1,22 @@
 $(document).ready(function() {
-     $("#carousel").owlCarousel({
-		items : 3,
-		itemsDesktop : [1200,3],
-		itemsDesktopSmall : [992,2],
-		itemsTablet: [768,1],
-		itemsMobile : false, 
-		
-		navigation : true 
-	});
+     $('.owl-carousel').owlCarousel({
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:2
+        },
+        992:{
+            items:3
+        }
+    },
+	navContainer: "#carousel-product",
+	navRewind: false,
+	touchDrag: false,
+	mouseDrag: false
+})
 	
 
 	

@@ -301,6 +301,33 @@ footer	{
 #products .carousel-control {
 	z-index:20;}
 	
+#carousel-product {
+	min-height:500px;
+	position:relative;}
+	
+#carousel-product > .btn-cntr {
+	overflow:hidden;
+	text-indent:-9999px;
+	width:40px;
+	height:40px;
+	top:-60px;
+	position:absolute;}
+	
+#carousel-product > .btn-cntr.disabled {
+	opacity:.4}
+	
+#carousel-product > .btn-cntr:hover {
+	outline:dotted 1px;
+	cursor:pointer;}
+	
+#carousel-product > .btn-cntr.owl-next {
+	background:url(../images/arr_small_next.svg) center center no-repeat;
+	right:0;}
+	
+#carousel-product > .btn-cntr.owl-prev {
+	background:url(../images/arr_small_prew.svg) center center no-repeat;
+	right:70px;}
+	
 
 		
 
