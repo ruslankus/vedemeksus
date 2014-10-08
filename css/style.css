@@ -59,7 +59,10 @@ footer {
 	height:46px;}
 	
 .bottom-block > div {
-	margin-top:-1px} 		
+	margin-top:-1px}
+	
+.top-block {
+	display:none;}	 		
 	
 /*------- header --------*/	
 header {
@@ -327,6 +330,36 @@ footer	{
 #carousel-product > .btn-cntr.owl-prev {
 	background:url(../images/arr_small_prew.svg) center center no-repeat;
 	right:70px;}
+	
+	
+	
+/*---- media responce part ----*/
+@media (min-width: 471px){
+	
+	#index {width:100%;}
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px){
+/*--- common-part ---*/	
+	.wrapper {height:100%; margin: -140px auto -60px; padding-top:140px; padding-bottom:60px;}
+	#main-content {height:100%;}
+	#main-content > div {height:100%}
+	#main-content > div > .row {height:100%;}
+	#main-content > div > .row > .bottom-block {height:100%;}
+	
+	/*----- header ------*/
+	header {height:140px; }
+	header > .logo-holder {height:90px; margin:0}
+	header > nav.navbar {position:relative; height:50px; margin:0;}
+	/*---- footer ------*/ 
+	footer {height:60px;}
+	
+	/*------ imdex -----*/	
+	#index {height:100%;}
+
+}	
 	
 
 		
