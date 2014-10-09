@@ -387,7 +387,7 @@ footer	{
 
 @media (min-width:992px){
 	header {height:80px; }
-	header nav .navbar-header {width:27.835%; background-color:#ebf0ec; height:80px; margin-left:-25px;}
+	header nav.navbar .navbar-header {width:27.835%; background-color:#ebf0ec; height:80px; margin-left:-25px;}
 	#bs-meniu-navbar-collapse {float:right; width:72.165%; height:80px; margin:0}
 	
 }
