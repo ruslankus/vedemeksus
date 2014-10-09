@@ -378,11 +378,19 @@ footer	{
 	.contact-holder > table tr > td:first-child { width:80px; line-height:26px}
 	/*--- products ----*/
 	#carousel .item {padding:20px;}
-	#carousel-product {padding-left:30px; padding-right:30px;}
-	#carousel-product > .btn-cntr {top:0; height:100%; width:30px}
-	#carousel-product > .btn-cntr.owl-prev {left:0}
+	#carousel-product {padding-left:0px; padding-right:0px; margin-left:-30px; margin-right:-30px;}
+	#carousel-product > .btn-cntr {top:0; height:100%; width:30px; background-color:white; z-index:10}
+	#carousel-product > .btn-cntr.owl-prev {left:0; background-image:url(../images/arr_big_prew.svg); background-size:11px 35px;}
+	#carousel-product > .btn-cntr.owl-next {background-image:url(../images/arr_big_next.svg); background-size:11px 35px;}
+	#carousel .item { padding-right:30px; padding-left:30px;}
 }	
+
+@media (min-width:992px){
+	header {height:80px; }
+	header nav .navbar-header {width:27.835%; background-color:#ebf0ec; height:80px; margin-left:-25px;}
+	#bs-meniu-navbar-collapse {float:right; width:72.165%; height:80px; margin:0}
 	
+}
 
 		
 
