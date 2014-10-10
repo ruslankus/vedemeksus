@@ -55,6 +55,10 @@ body p {
 	margin: -70px auto -46px;
 	padding-bottom:46px;}
 	
+header,footer {
+	max-width:1200px;
+	margin: 0 auto;}	
+	
 footer {
 	height:46px;}
 	
@@ -152,7 +156,7 @@ footer	{
 	padding-left:15px;
 	color:#6d6d6d;}	
 	
-.copy-holder > a {
+.copy-holder > span > a {
 	color:#8b8b8b;}
 	
 	
@@ -368,7 +372,7 @@ footer	{
 	footer {height:60px;}
 	footer .copy-holder {width:144px; background-color:#3d3d3c;display:block; height:60px;padding-left:32px;padding-top:15px;}
 	
-	/*------ iтdex -----*/	
+	/*------ index -----*/	
 	#index {height:500px;}
 	#index > span {font-size:40px;}
 	
@@ -386,9 +390,45 @@ footer	{
 }	
 
 @media (min-width:992px){
-	header {height:80px; }
-	header nav.navbar .navbar-header {width:27.835%; background-color:#ebf0ec; height:80px; margin-left:-25px;}
-	#bs-meniu-navbar-collapse {float:right; width:72.165%; height:80px; margin:0}
+	
+	.wrapper {min-height:100%; height:1px; margin: -80px auto -60px; padding-top:80px; padding-bottom:60px;}
+	#main-content { min-height:100%; height:1px;}
+	#main-content > div { min-height:100%; height:1px;}
+	#main-content > div > .row { min-height:100%; height:1px;}
+	#main-content > div > .row > .bottom-block { min-height:100%; height:1px;}
+
+	header {height:80px;}
+	header > * {float:left; height:80px;}
+	header .logo-holder {width:27.835%; height:80px;}
+	header nav.navbar{width:72.165%; height:80px;}
+	
+	/*---- header ------*/
+	nav.navbar > div {padding:0;}
+	header > .logo-holder > a{ margin-top:17px;margin-left:50px;}
+	#bs-meniu-navbar-collapse {margin:0;}
+	#bs-meniu-navbar-collapse > ul.nav {display:block;}
+	#bs-meniu-navbar-collapse > ul.nav > li {display:block; float:left; width:20%; min-width:20%; height:80px;}
+	#bs-meniu-navbar-collapse > ul.nav > li > a {display:block; height:100%; font-size:16px;padding-top:35px;}
+	
+	/*---- footer -----*/
+	footer .copy-holder {width:27.835%; padding-left:40px; font-size:14px;display:block}
+	footer .copy-holder > span {display:block;line-height:16px;}
+	
+	/*--- nano scroller ---*/
+	.nano > .nano-pane {}
+	.nano .nano-pane   { background: #eaeaea; width:3px; }
+	.nano > .nano-pane > .nano-slider { background: #388a41; width:3px; } 
+	
+	/*----- index -----*/
+	#index {height:100%;}
+	#index > span {font-size:50px;}
+	
+	/*----- news -----*/
+	#main-content #news {height:90%; padding-right:15px}
+	#news .nano {height:80%; margin-right:-15px; }
+	
+	.nano .nano-content { padding: 0 20px 0 0; }
+
 	
 }
 
