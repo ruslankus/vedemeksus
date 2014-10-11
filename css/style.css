@@ -37,6 +37,7 @@ h2,h3,h4 {
 	font-weight:600;}
 	
 body {
+	background-color:#f6f6f6;
 	font-family:'casper',sans-serif;
 	font-weight:400;
 	font-size:14px;}
@@ -185,7 +186,7 @@ footer	{
 	 margin-left:-15px;
 	 background-color:white;}
 	 
-#about > h2 {
+#about >div > h2 {
 	font-weight:400;
 	font-size:23px;
 	line-height:36px;
@@ -230,7 +231,8 @@ footer	{
 	
 #articles-holder > article > .date {
 	font-size:12px;
-	line-height:28px;
+	line-height:10px;
+	padding-top:8px;
 	color:#388a41;
 	width:105px;
 	border-top:1px solid #ccc;}
@@ -390,9 +392,9 @@ footer	{
 }	
 
 @media (min-width:992px){
-	
+	body{ min-height:450px;}
 	.wrapper {min-height:100%; height:1px; margin: -80px auto -60px; padding-top:80px; padding-bottom:60px;}
-	#main-content { min-height:100%; height:1px;}
+	#main-content { min-height:100%; height:1px; padding-bottom:50px;}
 	#main-content > div { min-height:100%; height:1px;}
 	#main-content > div > .row { min-height:100%; height:1px;}
 	#main-content > div > .row > .bottom-block { min-height:100%; height:1px;}
@@ -424,10 +426,32 @@ footer	{
 	#index > span {font-size:50px;}
 	
 	/*----- news -----*/
-	#main-content #news {height:90%; padding-right:15px}
-	#news .nano {height:80%; margin-right:-15px; }
+	#news {position:relative; padding-left:40px; padding-top:80px; padding-bottom:30px;}
+	#news > .h2-holder {height:80px;position:absolute; top:0}
+	#news > div > h2 {font-size:28px; font-weight:400; line-height:46px; background:url(../images/h2_bg.svg) left bottom no-repeat;	background-size:48px 2px;}
+	#main-content #news {height:100%; padding-right:15px; padding-left:40px;}
+	#news .nano {height:100%; margin-right:-15px; }
 	
 	.nano .nano-content { padding: 0 20px 0 0; }
+	#articles-holder > article:last-child {margin-bottom:0}
+	
+	/*---- about ----*/
+	#about {height:100%; position:relative; padding-left:40px; padding-top:80px; padding-bottom:30px;}
+	#about > .h2-holder {height:80px;position:absolute; top:0}
+	#about > div > h2 {font-size:28px; font-weight:400; line-height:46px; background:url(../images/h2_bg.svg) left bottom no-repeat;	background-size:48px 2px;}
+	#about .content-holder {height:100%;}
+	
+	/*----- product ----*/
+	#products {height:100%; position:relative; padding-left:40px; padding-top:80px; padding-bottom:5px;}
+	#products > .h2-holder {height:80px;position:absolute; top:0}
+	#products > div > h2 {font-size:28px; font-weight:400; line-height:46px; background:url(../images/h2_bg.svg) left bottom no-repeat;	background-size:48px 2px;}
+	#about .content-holder {height:100%;}
+	#carousel-product  {min-height:0; height:100%;}
+	/*-- product - carusel --*/
+	#carousel .item {padding-top:0px; padding-bottom:0px;}
+	#carousel .item > img { max-wight:90%;}
+	#carousel .item > .caption > h4 { line-height:18px; margin-top:8px; margin-bottom:8px;}
+	#carousel .item > .caption {line-height:16px;
 
 	
 }
