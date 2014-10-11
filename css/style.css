@@ -398,6 +398,9 @@ footer	{
 	#main-content > div { min-height:100%; height:1px;}
 	#main-content > div > .row { min-height:100%; height:1px;}
 	#main-content > div > .row > .bottom-block { min-height:100%; height:1px;}
+	#main-content > div > .row > .bottom-block > div { height:100%; padding-top:80px;padding-left:40px;}
+	#main-content > div > .row > .bottom-block  div.h2-holder {height:80px;position:absolute; top:0}
+	#main-content > div > .row > .bottom-block  div.h2-holder > h2 {font-size:28px; font-weight:400; line-height:46px; background:url(../images/h2_bg.svg) left bottom no-repeat;	background-size:48px 2px;}
 
 	header {height:80px;}
 	header > * {float:left; height:80px;}
@@ -406,7 +409,7 @@ footer	{
 	
 	/*---- header ------*/
 	nav.navbar > div {padding:0;}
-	header > .logo-holder > a{ margin-top:17px;margin-left:50px;}
+	header > .logo-holder > a{ margin-top:17px;margin-left:40px;}
 	#bs-meniu-navbar-collapse {margin:0;}
 	#bs-meniu-navbar-collapse > ul.nav {display:block;}
 	#bs-meniu-navbar-collapse > ul.nav > li {display:block; float:left; width:20%; min-width:20%; height:80px;}
@@ -443,6 +446,7 @@ footer	{
 	
 	/*----- product ----*/
 	#products {height:100%; position:relative; padding-left:40px; padding-top:80px; padding-bottom:5px;}
+	#main-content #products {padding-right:40px;}
 	#products > .h2-holder {height:80px;position:absolute; top:0}
 	#products > div > h2 {font-size:28px; font-weight:400; line-height:46px; background:url(../images/h2_bg.svg) left bottom no-repeat;	background-size:48px 2px;}
 	#about .content-holder {height:100%;}
@@ -452,8 +456,13 @@ footer	{
 	#carousel .item > img { max-width:90%;}
 	#carousel .item > .caption > h4 { line-height:18px; margin-top:0px; margin-bottom:8px;}
 	#carousel .item > .caption {line-height:17px;}
-
 	
+	/*--- logistic ---*/
+	#main-content #logistic {padding-right:15px;}
+	#logistic .content-holder {height:100%;}
+	.logistic-img-holder > img {max-width:55%;}
+	
+	/*---- contacts ----*/
 }
 
 		
