@@ -372,10 +372,15 @@ footer	{
 	#main-content > div > .row { min-height:100%; height:1px;}
 	#main-content > div > .row > .bottom-block { min-height:100%; height:1px;}
 	#main-content > div > .row > .bottom-block > div { height:100%; padding-top:80px;padding-left:40px;}
+	#main-content > div > .row > .top-block > div { height:100%; padding-top:80px;padding-left:40px;}
 	#main-content > div > .row > .bottom-block  div.h2-holder {height:80px;position:absolute; top:0}
+	#main-content > div > .row > .top-block  div.h2-holder {height:80px;position:absolute; top:0}
 	#main-content > div > .row > .bottom-block  div.h2-holder > h2 {font-size:28px; font-weight:400; line-height:46px; background:url(../images/h2_bg.svg) left bottom no-repeat;	background-size:48px 2px;}
+	#main-content > div > .row > .top-block  div.h2-holder > h2 {font-size:28px; font-weight:400; line-height:46px; background:url(../images/h2_bg.svg) left bottom no-repeat;	background-size:48px 2px;}
+	
+	
 
-	header {height:80px;}
+	header {height:80px;z-index:40}
 	header > * {float:left; height:80px;}
 	header .logo-holder {width:27.835%; height:80px;}
 	header nav.navbar{width:72.165%; height:80px;}
@@ -394,8 +399,10 @@ footer	{
 	
 	/*--- nano scroller ---*/
 	.nano > .nano-pane {}
-	.nano .nano-pane   { background: #eaeaea; width:3px; }
-	.nano > .nano-pane > .nano-slider { background: #388a41; width:3px; } 
+	.top-block .nano .nano-pane   { background: #eaeaea; width:3px; }
+	.top-block .nano > .nano-pane > .nano-slider { background: #388a41; width:3px; } 
+	.bottom-block .nano .nano-pane   { background: #eaeaea; width:3px; }
+	.bottom-block .nano > .nano-pane > .nano-slider { background: #388a41; width:3px; } 
 	
 	/*----- index -----*/
 	#index {height:100%;}
