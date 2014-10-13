@@ -1,3 +1,8 @@
 $(document).ready(function() {
-    $(".nano").nanoScroller();
+	var breakpoint = 991;
+	viewportWidth = window.innerWidth;
+	
+	if (viewportWidth > breakpoint){
+		$(".nano").nanoScroller();
+	}
 });
