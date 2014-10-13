@@ -1,5 +1,7 @@
 $(document).ready(function() {
-     $('.owl-carousel').owlCarousel({
+	
+ $('.owl-carousel').owlCarousel({
+	responsiveClass:true,
     nav:true,
     responsive:{
         0:{
@@ -15,7 +17,8 @@ $(document).ready(function() {
 	navContainer: "#carousel-product",
 	navRewind: false,
 	touchDrag: false,
-	mouseDrag: false
+	mouseDrag: false,
+	responsiveRefreshRate: 100,
 })
 	
 
