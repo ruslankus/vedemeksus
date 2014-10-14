@@ -436,6 +436,9 @@ footer	{
 	#carousel .item > img { max-width:90%;}
 	#carousel .item > .caption > h4 { line-height:18px; margin-top:0px; margin-bottom:8px;}
 	#carousel .item > .caption {line-height:17px;}
+	#carousel-product > .btn-cntr { width:40px;}
+	#carousel-product > .btn-cntr.owl-prev { left:-10px;}
+	#carousel-product > .btn-cntr.owl-next { right:-10px;}
 	
 	/*--- logistic ---*/
 	#main-content #logistic {padding-right:15px; padding-bottom:30px;}
